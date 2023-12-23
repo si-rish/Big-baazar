@@ -3,3 +3,52 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.main-title{
+    padding: 115px 0px;
+    font-family: "raleway";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.main-title-caption{
+    font-family: "raleway";
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 100px;
+}
+
+hr{
+    width: 75%;
+}
+
+/* .pr-head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+.p-heading{
+    font-family: "prompt";
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.search-bar{
+    display: block;
+    width: 60%;
+    margin: 0px auto 40px ;
+    font-size: 20px;
+    padding: 8px 0px 8px 20px;
+    border: none;
+    border-radius: 19px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgba(255, 255, 255, 0.848);
+}
+
+.search-bar::placeholder{
+    color: rgba(0, 0, 0, 0.329);
+    font-family: "prompt";
+    font-weight: 300;
+    text-align: center;
+}

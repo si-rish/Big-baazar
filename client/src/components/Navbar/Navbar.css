@@ -1,0 +1,24 @@
+
+.navbar{
+    background-color:#000000;
+    opacity: 75%;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px; 
+    font-weight: 600;
+  }
+  
+.nav-link{
+      color: rgb(244, 243, 243);
+      display: inline-block;
+      margin: 0px 35px 0px 0px ;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: "prompt";  
+  }
+  
+.nav-link:hover{
+    transform: scale(.90);
+    transition: all.3s ease;
+  }
